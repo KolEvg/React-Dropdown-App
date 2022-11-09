@@ -1,12 +1,17 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { Header } from "./components/Header/Header.jsx";
+import { Contacts } from "./pages/Contacts/Contacts";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-    </div>
+      <Routes>
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
