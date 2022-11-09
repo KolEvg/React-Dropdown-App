@@ -35,7 +35,6 @@ export function Header() {
             }
           </div>
       </div>
-
       <div className="dropdown">
         <nav className="dropbtn">JavaScript</nav>
           <div className="dropdown-content">
@@ -45,7 +44,6 @@ export function Header() {
             <Link to="#" alt=''>Angular</Link>
         </div>
       </div>
-
       <div className="dropdown">
         <nav className="dropbtn">Videoconference</nav>
           <div className="dropdown-content">
@@ -55,7 +53,6 @@ export function Header() {
             <Link to="#" alt=''>Google Meet</Link>
           </div>
       </div>
-
       <div className="dropdown">
         <nav className="dropbtn">Contacts</nav>
           <div className="dropdown-content">
