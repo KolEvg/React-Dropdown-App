@@ -11,6 +11,7 @@ export function Header() {
   
   useEffect(() => {
     const name = prompt('Авторизуйтесь', 'ilya');
+    console.log(users[name]);
     setUser(users[name]);
   }, []);
 
