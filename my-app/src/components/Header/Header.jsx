@@ -20,7 +20,7 @@ export function Header() {
       <div className="dropdown">
         <nav className="dropbtn">Messenger</nav>
           <div className="dropdown-content">       
-            {user?.role === 'admin' 
+            {user.role === 'admin' 
               ? 
               <>
                 <Link to="/contacts" alt=''>Telegram</Link>
